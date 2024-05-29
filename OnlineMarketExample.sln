@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarketExample", "OnlineMarketExample\OnlineMarketExample.csproj", "{F745681E-8CF7-486B-88AD-E6E16A15BBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{511223C2-A519-4500-A215-E5472ACF8F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{B16110E1-CEFA-4033-8200-330B8339E080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9BD6D06F-EDED-423F-A29E-DD5A3958BE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "Core\Core.Persistence\Core.Persistence.csproj", "{92DE28DD-B025-467F-B504-4426A6ED6D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8376505A-D780-4B12-9F2B-66392DF026F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core\Core.Application\Core.Application.csproj", "{77997A58-9148-430E-88DB-9FC12BC26665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "Core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{4D352A04-6C2F-4882-BCDB-010350DFA05D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F745681E-8CF7-486B-88AD-E6E16A15BBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F745681E-8CF7-486B-88AD-E6E16A15BBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F745681E-8CF7-486B-88AD-E6E16A15BBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F745681E-8CF7-486B-88AD-E6E16A15BBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511223C2-A519-4500-A215-E5472ACF8F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511223C2-A519-4500-A215-E5472ACF8F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511223C2-A519-4500-A215-E5472ACF8F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511223C2-A519-4500-A215-E5472ACF8F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16110E1-CEFA-4033-8200-330B8339E080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16110E1-CEFA-4033-8200-330B8339E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16110E1-CEFA-4033-8200-330B8339E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16110E1-CEFA-4033-8200-330B8339E080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DE28DD-B025-467F-B504-4426A6ED6D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DE28DD-B025-467F-B504-4426A6ED6D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DE28DD-B025-467F-B504-4426A6ED6D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DE28DD-B025-467F-B504-4426A6ED6D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8376505A-D780-4B12-9F2B-66392DF026F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8376505A-D780-4B12-9F2B-66392DF026F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8376505A-D780-4B12-9F2B-66392DF026F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8376505A-D780-4B12-9F2B-66392DF026F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77997A58-9148-430E-88DB-9FC12BC26665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77997A58-9148-430E-88DB-9FC12BC26665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77997A58-9148-430E-88DB-9FC12BC26665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77997A58-9148-430E-88DB-9FC12BC26665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D352A04-6C2F-4882-BCDB-010350DFA05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D352A04-6C2F-4882-BCDB-010350DFA05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D352A04-6C2F-4882-BCDB-010350DFA05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D352A04-6C2F-4882-BCDB-010350DFA05D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92DE28DD-B025-467F-B504-4426A6ED6D9A} = {9BD6D06F-EDED-423F-A29E-DD5A3958BE48}
+		{77997A58-9148-430E-88DB-9FC12BC26665} = {9BD6D06F-EDED-423F-A29E-DD5A3958BE48}
+		{4D352A04-6C2F-4882-BCDB-010350DFA05D} = {9BD6D06F-EDED-423F-A29E-DD5A3958BE48}
+	EndGlobalSection
+EndGlobal
